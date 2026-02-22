@@ -11,7 +11,7 @@ This repository contains a reproducible analytics workflow using four provided s
   - `salesdaily.csv`
   - `salesweekly.csv`
   - `salesmonthly.csv` (main dataset used for detailed analysis)
-- `scripts/`
+  
   - `01_analysis.R` (main reproducible pipeline)
   - `legacy_pharma_final_session_info.txt` (archived original file)
 - `outputs/`
@@ -24,7 +24,7 @@ This repository contains a reproducible analytics workflow using four provided s
 
 ## What the analysis does
 
-`scripts/01_analysis.R` covers the rubric end-to-end:
+`01_analysis.R` covers the rubric end-to-end:
 
 1. Data understanding
    - Prints dimensions, column types, and 5-row sample for monthly data.
@@ -49,7 +49,7 @@ This repository contains a reproducible analytics workflow using four provided s
 From repository root:
 
 ```bash
-Rscript scripts/01_analysis.R
+01_analysis.R
 ```
 
 If packages are missing, install:
